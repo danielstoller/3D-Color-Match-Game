@@ -34,6 +34,14 @@ To set up and run this project, you'll need the following:
 
 4. Adjust the color components of the 3D object by tilting the sensor to match the background color.
 
+5. There are 6 different modes:
+      1. Pitch and Roll: Don't click on a difficulty to see real time pitch and roll angles
+      2. Tutorial: Learn how to play the game
+      3. Closeness: Given how far away the player is from the correct color
+      4. Normal: No help given and can't lose
+      5. Timer: Player has to finish a color within the given amount of time. Extra time rolls over to the next round
+      6. Limited Moves and Timer: Player only has a certain number of moves to find the correct color. Timer does not roll over to the next round
+
 ## Additional Notes
 
 - Customize the Arduino code if using a different IMU sensor.
@@ -53,7 +61,7 @@ This project utilizes the following open-source projects:
 - CarbonAeronautics: [Part-XV-1DKalmanFilter](https://github.com/CarbonAeronautics/Part-XV-1DKalmanFilter)
 - MA-Lugo: [PyIMU_3Dvisualizer](https://github.com/MA-Lugo/PyIMU_3Dvisualizer)
 
-Make sure to check out the respective GitHub repositories for these projects and show your support to the original authors.
+Make sure to check out their respective GitHub repositories for these projects and show your support to the original authors.
 
 Enjoy the game!
 
