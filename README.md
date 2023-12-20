@@ -1,6 +1,6 @@
 # 3D Color Match
 
-This project involves creating a 3D color matching game using an MPU6050 IMU sensor with Arduino for real-time input and PyOpenGL, PyGame, and Tkinter in Python for visualization. The game requires players to match the color of a 3D object with the background color by adjusting the color components using tilt inputs from the IMU sensor.
+This project involves creating a 3D color matching game using an MPU6050 IMU sensor with Arduino for real-time input and PyOpenGL, PyGame, and Tkinter in Python for visualization. The game requires players to match the color of a 3D model of the IMU with the background color by adjusting the color components using tilt inputs from the IMU sensor.
 
 ## Prerequisites
 
@@ -36,18 +36,22 @@ To set up and run this project, you'll need the following:
 
 ## Additional Notes
 
+- Customize the Arduino code if using a different IMU sensor.
+  
+- Serial outputs must have the structure "$roll/pitch"
+  
+- Do not have Serial Moniter open when running the Python code.
+
 - Make sure to install the necessary Python libraries before running the Python code.
 
-- Customize the Arduino code if using a different IMU sensor or microcontroller.
-
-- Experiment with different difficulty levels and rollover times to enhance the gaming experience.
+- Experiment with different values under the comment "####ADJUSTABLE####" to enhance the gaming experience.
 
 ## Credits
 
 This project utilizes the following open-source projects:
 
-- [CarbonAeronautics: Part-XV-1DKalmanFilter](https://github.com/CarbonAeronautics/Part-XV-1DKalmanFilter)
-- [MA-Lugo: PyIMU_3Dvisualizer](https://github.com/MA-Lugo/PyIMU_3Dvisualizer)
+- CarbonAeronautics: [Part-XV-1DKalmanFilter](https://github.com/CarbonAeronautics/Part-XV-1DKalmanFilter)
+- MA-Lugo: [PyIMU_3Dvisualizer](https://github.com/MA-Lugo/PyIMU_3Dvisualizer)
 
 Make sure to check out the respective GitHub repositories for these projects and show your support to the original authors.
 
