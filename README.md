@@ -2,7 +2,7 @@
 
 This project involves creating a 3D color matching game using an MPU6050 IMU sensor with Arduino for real-time input and PyOpenGL, PyGame, and Tkinter in Python for visualization. The game requires players to match the color of a 3D model of the IMU with the background color by adjusting the color components using tilt inputs from the IMU sensor.
 
-[![Watch the Video](https://img.youtube.com/vi/dbV-Rf0EUzg/0.jpg)](https://youtu.be/dbV-Rf0EUzg)
+[![Watch the Video](https://img.youtube.com/vi/dbV-Rf0EUzg/maxresdefault.jpg)](https://www.youtube.com/watch?v=dbV-Rf0EUzg&t=61s&ab_channel=DanielStoller)
 
 
 ## Prerequisites
