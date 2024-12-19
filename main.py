@@ -15,7 +15,7 @@ import random
 ApplicationGL = False
 
 class PortSettings:
-    Name = "COM14"
+    Name = "COM5"
     Speed = 19200
     Difficulty = 0
     Timeout = 2
